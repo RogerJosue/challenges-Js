@@ -4,7 +4,7 @@ and for every 5 number to put out buzz and for every 3 numbers to put out fizz*/
 
 
 
-function numberPrinted (number) {
+/*function numberPrinted (number) {
     for(let i = 1; i < 100;i++) {
      
         if (i % 3 ===0){
@@ -20,4 +20,11 @@ function numberPrinted (number) {
     } 
 }
 
-numberPrinted(1)
+numberPrinted(1) */
+
+const adding = (x,y,z) => {
+let result = (x/y) + z;
+return result
+}
+
+console.log(adding(30,5,3))
